@@ -16,7 +16,6 @@ Proyek ini merupakan aplikasi berbasis Streamlit untuk melakukan segmentasi pela
 
 ## Cara Menjalankan
 
-````markdown
 1. **(Opsional)** Buat virtual environment (venv) baru:
 
    ```bash
@@ -26,25 +25,20 @@ Proyek ini merupakan aplikasi berbasis Streamlit untuk melakukan segmentasi pela
    Aktifkan venv:
 
    - **Windows:**  
-
      ```bash
      venv\Scripts\activate
      ```
-
    - **Mac/Linux:**  
-
      ```bash
      source venv/bin/activate
      ```
 
 2. Install dependensi yang diperlukan:
-
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Jalankan aplikasi dengan perintah:
-
    ```bash
    streamlit run main.py
    ```
@@ -68,5 +62,3 @@ Dataset yang digunakan memiliki kolom berikut:
 - Spending Score (1-100) (skor pengeluaran pelanggan)
 
 Pastikan dataset memiliki format header dan urutan kolom seperti di atas untuk kompatibilitas maksimal.
-
-```
